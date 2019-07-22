@@ -1,0 +1,42 @@
+
+{
+    "net_cfg":{
+        "seq2seq_cfg":{
+            "input_size":54,
+            "hidden_size":200,
+            "seq_len":20,
+            "num_layers":1
+        },
+        "g_cfg":{
+            "input_dim":50,
+            "hidden_dims":[100],
+
+            "output_dim":200
+
+        },
+        "d_cfg":{
+            "input_dim":200,
+            "hidden_dims":[100,50],
+            "output_dim":2
+        }
+    },
+    "train_cfg":{
+        "autoencoder":{
+            "BATCH_SIZE":100,
+            "EPOCH":100,
+            "LR":1e-3
+        },
+        "rGAN":{
+            "BATCH_SIZE":7000,
+            "EPOCH":1,
+            "LR":1e-3
+        },
+        "cGAN":{
+            "BATCH_SIZE":100,
+            "EPOCH":70,
+            "LR":0.001,
+            "g_dim":50, 
+            "alpha":1.85
+        }
+    }
+}
