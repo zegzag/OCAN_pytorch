@@ -1,11 +1,10 @@
  # OCAN： One-Class Adversarial Nets fo Fraud Detection [pytorch Implementation]
  Reference:  
- [official implementation](https://github.com/PanpanZheng/OCAN)
- 
+ [official implementation](https://github.com/PanpanZheng/OCAN)  
  [paper link](https://arxiv.org/pdf/1803.01798.pdf)
 
  # Running Environment
- python 3.7.1
+ python 3.7.1  
  pytorch 1.0.1
 
  # Guideline
