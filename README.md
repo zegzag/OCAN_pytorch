@@ -20,4 +20,4 @@
 
  
 
-## Welcome for bug and issue reporting
+## Welcome for bugs and issues reporting
